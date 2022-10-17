@@ -4,7 +4,7 @@ web:
   ports:
     - "3000:3000"
   links:
-    - db
+    - db 
   environment:
     MYSQL_DATABASE: myapp
     MYSQL_USER: myapp
